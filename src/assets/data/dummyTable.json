@@ -1,0 +1,74 @@
+{
+  "downloads": [{
+      "title": "Title-1",
+      "description": "Title-1 Description",
+      "link": "../../../../assets/images/gallery-1.png"
+    },
+    {
+      "title": "Title-2",
+      "description": "Title-2 Description",
+      "link": "../../../../assets/images/gallery-1.png"
+    },
+    {
+      "title": "Title-3",
+      "description": "Title-3 Description",
+      "link": "../../../../assets/images/gallery-1.png"
+    },
+    {
+      "title": "Title-4",
+      "description": "Title-4 Description",
+      "link": "../../../../assets/images/gallery-1.png"
+    },
+    {
+      "title": "Title-5",
+      "description": "Title-5 Description",
+      "link": "../../../../assets/images/gallery-1.png"
+    },
+    {
+      "title": "Title-6",
+      "description": "Title-6 Description",
+      "link": "../../../../assets/images/gallery-1.png"
+    }
+  ],
+  "abbreviations": [
+    {
+      "abbreviation": "AAO",
+      "fullForm":"Asst Accounts Officer",
+      "description": "Title-1 Description"
+    
+    },
+    {
+      "title": "ACR",
+      "fullForm": "Acquaintance Rolls",
+      "description": "Title-2 Description"
+      
+    },
+    {
+      "abbreviation": "AAO",
+      "fullForm":"Asst Accounts Officer",
+      "description": "Title-1 Description"
+    
+    },
+    {
+      "title": "ACR",
+      "fullForm": "Acquaintance Rolls",
+      "description": "Title-2 Description"
+      
+    },
+    {
+      "abbreviation": "AAO",
+      "fullForm":"Asst Accounts Officer",
+      "description": "Title-1 Description"
+    
+    },
+    {
+      "title": "ACR",
+      "fullForm": "Acquaintance Rolls",
+      "description": "Title-2 Description"
+      
+    }
+
+
+  ]
+
+}

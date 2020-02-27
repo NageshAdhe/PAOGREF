@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg navbar-dark   poagref-navbar wrapper nav-wrapper ">
+  <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"
+    aria-controls="collapseBasic">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" [collapse]="!isCollapsed" [isAnimated]="true">
+    <ul class="navbar-nav mr-auto">
+      <ng-container *ngFor="let navItem of navItems">
+        <li class="nav-item dropdown" *ngIf="navItem.children; else item">
+          <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ navItem.name }}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <ng-container>
+              <a class="dropdown-item" routerLink="{{ childNav.url }}"
+                *ngFor="let childNav of navItem.children">{{ childNav.name }}</a>
+            </ng-container>
+          </div>
+        </li>
+
+        <ng-template #item>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="{{ navItem.url }}">{{
+              navItem.name
+            }}</a>
+          </li>
+        </ng-template>
+      </ng-container>
+    </ul>
+  </div>
+</nav>

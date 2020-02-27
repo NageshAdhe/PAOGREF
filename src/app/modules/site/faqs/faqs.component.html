@@ -1,0 +1,21 @@
+<div class="subpage wrapper layout-up">
+  <app-site-subpage-banner [heading]="'FAQs'" [bannerClass]="'bg-dark-blue-img'"></app-site-subpage-banner>
+  <section class="site-subpage-content faqs">
+    <div class="container subpage-container">
+      <div class="row content-wrapper">
+        <div class="col-12">
+          <div class="card shadow-lg rounded-0 subpage-card">
+            <div class="card-body">
+              <accordion [isAnimated]="true">
+                <accordion-group *ngFor="let group of groups" [panelClass]="'panel-faqs'" [heading]="group.title">
+                  {{ group?.content }}
+                </accordion-group>
+              </accordion>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</div>
