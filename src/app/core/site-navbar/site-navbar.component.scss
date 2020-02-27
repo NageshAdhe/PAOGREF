@@ -1,0 +1,26 @@
+@import '../../../assets/scss/variables.scss';
+
+.poagref-navbar {
+  background: $navbar-bg-color;
+  color: $navbar-color;
+  padding: 0rem 1rem;
+  font-size: $navbar-font-size;
+  font-weight: $navbar-font-weight;
+
+  a.nav-link {
+    color: $navbar-color;
+    padding: 0.5rem 1rem;
+  }
+
+  a.nav-link:hover {
+    background-color: $navbar-bg-hover-color;
+  }
+
+  li.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+  @media (min-width:1024px) {
+    padding: 0rem 4rem;
+  }
+}

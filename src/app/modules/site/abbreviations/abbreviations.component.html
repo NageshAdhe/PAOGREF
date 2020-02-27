@@ -1,0 +1,33 @@
+<div class="subpage wrapper layout-up">
+  <app-site-subpage-banner [heading]="'Abbreviations'" [bannerClass]="'bg-dark-blue-img'"></app-site-subpage-banner>
+  <section class="site-subpage-content">
+    <div class="container">
+      <div class="row content-wrapper download-container">
+        <div class="col-12">
+          <div class="card shadow-lg rounded-0 subpage-card">
+            <div class="card-body p-2">
+              <table class="table">
+                <thead class="thead-green text-light">
+                  <tr>
+                    <th scope="col">Sr No.</th>
+                    <th scope="col">Abbreviations</th>
+                    <th scope="col">Full Form</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let item of abbreviationsArr;let i = index">
+                    <td>{{i + 1}}</td>
+                    <td>{{item.abbreviation}}</td>
+                    <td>{{item.fullForm}}</td>
+
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</div>

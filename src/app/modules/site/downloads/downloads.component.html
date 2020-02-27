@@ -1,0 +1,35 @@
+<div class="subpage wrapper layout-up">
+  <app-site-subpage-banner [heading]="'Downloads'" [bannerClass]="'bg-dark-blue-img'"></app-site-subpage-banner>
+  <section class="site-subpage-content">
+    <div class="container">
+      <div class="row content-wrapper download-container">
+        <div class="col-12">
+          <div class="card shadow-lg rounded-0 subpage-card">
+            <div class="card-body p-2">
+              <table class="table">
+                <thead class="thead-green text-light">
+                  <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let item of downloadsArr">
+                    <td>{{item.title}}</td>
+                    <td>{{item.description}}</td>
+                    <td>
+                      <a type="button" class="btn rounded-btn bg-red text-light" href=">{{item.link}}">Download
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</div>

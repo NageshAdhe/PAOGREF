@@ -1,0 +1,49 @@
+{
+  "gallery": [{
+      "title": "Gallery-1",
+      "url": "/home2",
+      "imgUrl": "../../../../assets/images/gallery-1.png"
+    },
+    {
+      "title": "Home2",
+      "url": "/home2",
+      "imgUrl": "../../../../assets/images/gallery-2.png"
+    },
+    {
+      "title": "Home3",
+      "url": "/home3",
+      "imgUrl": "../../../../assets/images/gallery-3.png"
+    },
+    {
+      "title": "Home4",
+      "url": "/home4",
+      "imgUrl": "../../../../assets/images/gallery-4.png"
+    },
+    {
+      "title": "Home5",
+      "url": "/home5",
+      "imgUrl": "../../../../assets/images/gallery-5.png"
+    },
+    {
+      "title": "Home5",
+      "url": "/home5",
+      "imgUrl": "../../../../assets/images/gallery-6.png"
+    },
+    {
+      "title": "Home4",
+      "url": "/home4",
+      "imgUrl": "../../../../assets/images/gallery-7.png"
+    },
+    {
+      "title": "Home5",
+      "url": "/home5",
+      "imgUrl": "../../../../assets/images/gallery-8.png"
+    },
+    {
+      "title": "Home5",
+      "url": "/home5",
+      "imgUrl": "../../../../assets/images/gallery-9.png"
+    }
+  ]
+
+}

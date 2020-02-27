@@ -1,0 +1,64 @@
+<div class="container  home-gallery">
+    <div class="row m-0">
+      <div class="col-12 p-0">
+        <h5 class="section-heading mb-3 gallery">Gallery</h5>
+      </div>
+    </div>
+  <div class="row m-0">
+
+    <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-0 pointer  gallery-item "
+      *ngFor="let galleryItem of galleryArr">
+      <div class="item-container">
+        <a class="" routerLink="{{galleryItem.url}}">
+          <div class="card  rounded-0 ">
+            <div class="card-body p-0">
+              <div class="img-container ">
+
+
+                <img class="img" src="{{galleryItem.imgUrl}}" />
+
+
+
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+    <!-- <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-0 gallery-item">
+      <div class="item-container">
+        <div class="card  rounded-0 ">
+          <div class="card-body p-0">
+            <div class="img-container ">
+
+
+              <img class="img" src="../../../../assets/images/dummy-1.jpg" />
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 p-0 gallery-item">
+      <div class="item-container">
+        <div class="card  rounded-0 ">
+          <div class="card-body p-0">
+            <div class="img-container ">
+
+
+              <img class="img" src="../../../../assets/images/dummy-1.jpg" />
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div> -->
+  </div>
+</div>

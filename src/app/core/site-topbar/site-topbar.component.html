@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg  wrapper top-bar top-bar-md">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item" *ngFor="let item of topBarItems">
+      <a class="nav-link text-uppercase" routerLink="{{item.url}}">{{item.name}}</a>
+    </li>
+    <!-- <li class="nav-item">
+        <a class="nav-link" href="#">Gallery</a>
+      </li> -->
+  </ul>
+  <ul class="navbar-nav  float-right">
+    <li class="nav-item">
+      <button class="btn nav-btn rounded-btn login-btn" type="button">login</button>
+    </li>
+    <li class="nav-item dropdown">
+      <button class="btn nav-btn rounded-btn language-btn dropdown-toggle" type="button" id="dropdownMenuButton"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">language <span class="caret"></span></button>
+
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">English</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </li>
+  </ul>
+
+</nav>

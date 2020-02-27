@@ -1,0 +1,9 @@
+@import '../../../../../assets/scss/variables.scss';
+
+.home-whats-new {
+  padding: 2rem 2rem;
+
+  @media (max-width: 375px) {
+    padding: 1rem 0rem;
+  }
+}

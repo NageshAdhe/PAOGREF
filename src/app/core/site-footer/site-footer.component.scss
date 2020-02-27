@@ -1,0 +1,56 @@
+@import '../../../assets/scss/variables.scss';
+
+.footer {
+  background-color: $footer-bg-color;
+  //  min-height: 538px;
+  color: $paogref-text-light;
+  padding: 1rem 1rem;
+
+  .nav-link {
+    color: $paogref-text-light;
+
+    &:hover {
+      color: $navbar-bg-hover-color;
+    }
+
+  }
+
+  .contact-item-container {
+    margin-bottom: 0.5rem;
+
+    .contact-item {
+      padding: 0.5rem 1rem;
+    }
+  }
+
+  .contact-head {
+    // color: $paogref-text-red;
+  }
+
+  .tel,
+  .mailto {
+    color: $paogref-text-light;
+  }
+
+  hr {
+    border-top: 1px solid #67696b;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding: 3rem 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 2rem 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer {
+    padding-top: 16px;
+  }
+}

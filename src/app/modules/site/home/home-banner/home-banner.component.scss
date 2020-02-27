@@ -1,0 +1,47 @@
+@import '../../../../../assets/scss/variables.scss';
+
+.poagref-banner {
+  background-color: $banner-bg-color;
+
+  .banner {
+    height: $banner-height;
+    background-color: $banner-bg-color;
+    // background: url('../../../../assets/images/banner0003.jpg');
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    // background-image:
+    //   linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    //   url('../../../../assets/images/banner0003.jpg');
+    background-image: url('../../../../../assets/images/banner.jpg');
+
+    .banner-head {
+      padding-top: 4%;
+      padding-left: 5%;
+
+      h2 {
+        font-weight: bold;
+      }
+
+      a {
+        text-decoration: none;
+        color: $banner-color;
+      }
+
+    }
+
+
+
+  }
+
+  @media (min-width: 1024px) {
+    .banner-head {
+      width: 35%;
+    }
+  }
+
+
+}

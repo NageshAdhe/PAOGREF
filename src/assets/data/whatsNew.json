@@ -1,0 +1,54 @@
+{
+  "whatsNew": [{
+      "title": "Home1",
+      "url": "/home",
+      "text": "lorem ipsum whts new text lorem ipsum whts new text"
+    },
+    {
+      "title": "Home2",
+      "url": "/home2",
+      "text": "lorem ipsum whts new text lorem ipsum whts new text"
+    },
+    {
+      "title": "Home3",
+      "url": "/home3",
+      "text": "lorem ipsum whts new text lorem ipsum whts new text"
+    },
+    {
+      "title": "Home4",
+      "url": "/home4",
+      "text": "lorem ipsum whts new text lorem ipsum whts new text"
+    },
+    {
+      "title": "Home5",
+      "url": "/home5",
+      "text": "lorem ipsum whts new text lorem ipsum whts new text"
+    },
+    {
+      "title": "Home1",
+      "url": "/home",
+      "text": "lorem ipsum whts new text lorem ipsum whts new text"
+    },
+    {
+      "title": "Home2",
+      "url": "/home2",
+      "text": "lorem ipsum whts new text lorem ipsum whts new text"
+    },
+    {
+      "title": "Home3",
+      "url": "/home3",
+      "text": "lorem ipsum whts new text lorem ipsum whts new text"
+    },
+    {
+      "title": "Home4",
+      "url": "/home4",
+      "text": "lorem ipsum whts new text lorem ipsum whts new text"
+    },
+    {
+      "title": "Home5",
+      "url": "/home5",
+      "text": "lorem ipsum whts new text lorem ipsum whts new text"
+    }
+  ]
+
+}

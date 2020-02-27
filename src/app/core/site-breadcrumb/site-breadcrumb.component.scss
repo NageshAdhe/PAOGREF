@@ -1,0 +1,21 @@
+@import '../../../assets/scss/variables.scss';
+
+.site-breadcrumb {
+  background: transparent;
+  color: $paogref-text-light;
+  padding: 0.5rem 0rem;
+
+  .breadcrumb-item {
+    a {
+      color: $paogref-text-light;
+
+      &:hover {
+        color: $paogref-text-red;
+      }
+    }
+
+    &.active {
+      color: rgba(255, 255, 255, 0.7)
+    }
+  }
+}
