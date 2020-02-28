@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, ElementRef } from "@angular/core";
 import { Replace } from "../../shared/utility";
+import { faFacebook, faLinkedin,faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: "app-site-footer",
@@ -9,7 +10,9 @@ import { Replace } from "../../shared/utility";
 export class SiteFooterComponent implements OnInit {
   @Input() quickLinks: any;
   @Input() contact: any;
-
+faFacebook =faFacebook;
+faLinkedin= faLinkedin;
+faYoutube =faYoutube;
   constructor(private el: ElementRef) {}
 
   ngOnInit(): void {

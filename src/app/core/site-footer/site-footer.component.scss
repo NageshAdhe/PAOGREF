@@ -35,6 +35,11 @@
   hr {
     border-top: 1px solid #67696b;
   }
+  .social-icon{
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    color: $paogref-light;
+  }
 }
 
 @media (min-width: 1024px) {

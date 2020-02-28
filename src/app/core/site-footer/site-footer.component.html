@@ -14,24 +14,46 @@
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
         <h6>Contact</h6>
         <div class="row m-0">
-          <div class=" col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 contact-item-container" *ngFor="let item of contact">
+          <div class=" col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 contact-item-container">
             <div class="contact-item">
-              <h6 class="contact-head text-uppercase">{{item.name}}</h6>
-              <ng-container *ngIf="item.name == 'Address'; else contactItem">
-                <address class="m-0" *ngFor="let childItem of item.items">
-                  {{childItem.text}}
+              <h6 class="contact-head text-uppercase">Address</h6>
+          
+                <address class="m-0" >
+                PAY ACCOUNTS OFFICE (GREF), <br/> DIGHI CAMP, PUNE - 411015
                 </address>
-              </ng-container>
+             
 
-              <ng-template #contactItem>
-                <ng-container *ngFor="let child of item.items; let i = index">
-                  <a class="tel" ngClass="{{child.class}}" href="{{child.url}}">{{child.text}}<span
-                      *ngIf="i!=item.items.length-1">,</span></a> <br *ngIf="i==1" />
-                </ng-container>
-              </ng-template>
+              
+                  
+
+
+               
+                
 
             </div>
           </div>
+
+<div  class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 contact-item-container">
+  <div class="contact-item">
+    <h6  class="contact-head text-uppercase">Email</h6>
+    <a class="tel mailto"  href="mailto:pao.gref.cgda@nic.in?Subject=Hello%20again">test123@gmail.com
+
+</a></div></div>
+    <div  class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 contact-item-container">
+  <div class="contact-item">
+    <h6  class="contact-head text-uppercase">Phone</h6>
+  <a  class="tel"  href="tel:020-27171634">020-27171634<span >,</span></a>
+  <a  class="tel"  href="tel:020-27171634">020-27171634<span >,</span></a><br/>
+  <a  class="tel"  href="tel:020-27171634">020-27171634</a>
+  </div></div>
+   <div  class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 contact-item-container">
+  <div class="contact-item">
+    <h6  class="contact-head text-uppercase">Social</h6>
+  <a  class="social-icon"  href="#"><fa-icon [icon]="faFacebook"></fa-icon></a>
+  <a  class="social-icon"  href="#"><fa-icon [icon]="faLinkedin"></fa-icon></a>
+  <a  class="social-icon"  href="#"><fa-icon [icon]="faYoutube"></fa-icon></a>
+  </div></div>
+
         </div>
       </div>
     </div>
