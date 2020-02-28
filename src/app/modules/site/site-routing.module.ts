@@ -16,7 +16,7 @@ import { DownloadsComponent } from "./downloads/downloads.component";
 import { ImportantLinksComponent } from "./important-links/important-links.component";
 import { PublicGrievancesComponent } from "./public-grievances/public-grievances.component";
 import { ContactComponent } from "./contact/contact.component";
-// import { } from  ""
+import { SectionComponent } from "./section/section.component";
 import { SitePageNotFoundComponent } from "../../core/site-page-not-found/site-page-not-found.component";
 const routes: Routes = [
   {
@@ -122,6 +122,13 @@ const routes: Routes = [
         component: ContactComponent,
         data: {
           title: "Contact"
+        }
+      },
+      {
+        path: "sections",
+        component: SectionComponent,
+        data: {
+          title: "Sections"
         }
       },
 

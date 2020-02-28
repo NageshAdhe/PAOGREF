@@ -2,15 +2,15 @@
 
 .site-breadcrumb {
   background: transparent;
-  color: $paogref-text-light;
+  color: $paogref-light;
   padding: 0.5rem 0rem;
 
   .breadcrumb-item {
     a {
-      color: $paogref-text-light;
+      color: $paogref-light;
 
       &:hover {
-        color: $paogref-text-red;
+        color: $paogref-red;
       }
     }
 

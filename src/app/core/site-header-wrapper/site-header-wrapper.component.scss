@@ -1,0 +1,107 @@
+.header-wrapper{
+    // border-bottom: 1px solid #fff;
+   
+    .logo {      
+      
+        float: left;  
+        // min-height: 103px;
+        padding: 0;
+        text-transform: uppercase;
+        background: none;
+        // min-width: 345px;   
+        // font-size: 160%;
+        // line-height: 105%;
+        // min-height: 103px;
+        .header__logo{
+                display: inline-block;
+
+                // height: 96px;
+        }
+
+        }
+       
+        img {
+            float: left;
+            padding: 0 15px 0 5px;
+               width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%;
+            vertical-align: middle;
+            border: 0;
+            
+            }
+        a{
+            font-size: 16px;
+            color: #000000;
+            font-family: "Aktiv Grotesk";
+            font-weight: bold;
+            display: block;
+            text-align: left;
+            &:hover{
+            text-decoration: none;
+            }
+
+            }
+        .logo-txt{
+            display: inline-block;
+            
+        }
+    
+  
+            .header-right{
+ .sw-logo{
+            width: 86px;
+            height: 96px;
+            display: inline-block;
+           
+
+        }
+            }
+        @media (min-width: 1024px){
+             padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+            .container{
+              padding: 0rem 3rem;
+            }
+            .header-container{
+            padding: 8px 0px 6px;
+        }
+             .header__logo{
+                 height: 96px;
+             }
+            .logo{               
+                 min-height: 103px;
+                 min-width: 345px;   
+                .logo-txt{
+                    padding-top:1rem;
+                  }
+
+                }
+            }   
+     @media (max-width: 320px){
+        
+        }
+
+        @media (max-width: 639px){
+             .header-right{
+                display: none;
+             }
+            .logo-txt{
+                font-size: 80%;
+                padding: 0.7rem !important;
+            }
+        }
+        @media (max-width: 767px){
+            .logo img {
+                padding: 0.5rem;
+            }
+            .header-right{
+            display: none;
+            }
+        }
+        
+    
+    
+}
+

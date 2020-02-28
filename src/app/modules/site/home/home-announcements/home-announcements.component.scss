@@ -1,19 +1,18 @@
+
 @import '../../../../../assets/scss/variables.scss';
 
 .poagref-marquee-bar {
-  background-color: $paogref-bg-light;
-  color: $paogref-text-dark;
+  background-color: $paogref-light;
+  color: $paogref-dark;
 
   .marquee-left {
-    background-color: $paogref-bg-green;
-    color: $paogref-text-light;
+    background-color: $paogref-green;
+    color: $paogref-light;
     //  padding: 1rem;
     font-weight: 500;
   }
 
-  .marquee-right {
-    //  padding: 0.5rem 0.5rem;
-  }
+
 
   .marquee-container {
     .list-item {
@@ -34,12 +33,12 @@
       }
 
       & a {
-        color: $paogref-text-dark;
+        color: $paogref-dark;
 
         &:hover {
           text-decoration: none;
           position: relative;
-          color: $paogref-text-red;
+          color: $paogref-red;
         }
       }
 

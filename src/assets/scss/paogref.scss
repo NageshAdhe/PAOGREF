@@ -6,25 +6,29 @@
 body {
   font-weight: 400;
   font-size: $paogref-font-size;
-  background: $paogref-bg-light;
-  color: $paogref-text-dark;
+  background: $paogref-light;
+  color: $paogref-dark;
   font-family: 'Open Sans', sans-serif;
 }
 
 .text-color-red {
-  color: $paogref-text-red;
+  color: $paogref-red;
 }
 
 .text-color-blue {
-  color: $paogref-text-blue;
+  color: $paogref-blue;
 }
 
 .thead-green {
-  background-color: $paogref-bg-green;
+  background-color: $paogref-green;
 }
 
 .bg-red {
-  background-color: $paogref-bg-red;
+  background-color: $paogref-red;
+}
+
+.bg-green {
+  background-color: $paogref-green;
 }
 
 .btn-outline {
@@ -66,11 +70,11 @@ body {
   }
 
   a {
-    color: $paogref-text-dark;
+    color: $paogref-dark;
     // padding: 1rem 0rem;
 
     &:hover {
-      color: $paogref-text-red
+      color: $paogref-red
     }
   }
 }
@@ -103,7 +107,7 @@ body {
 
   .about-wrapper {
     background-color: $home-wrapper-top-right-bg-color;
-    color: $paogref-text-light;
+    color: $paogref-light;
   }
 
   .about-container {
@@ -112,9 +116,9 @@ body {
 
     .nav-tabs .nav-link.active,
     .nav-tabs .nav-item.show .nav-link {
-      color: $paogref-text-light;
-      background-color: $paogref-bg-red;
-      border-color: $paogref-bg-light;
+      color: $paogref-light;
+      background-color: $paogref-red;
+      border-color: $paogref-light;
     }
 
     .nav-tabs {
@@ -122,8 +126,8 @@ body {
     }
 
     .nav-tabs .nav-link {
-      color: $paogref-text-light;
-      border: 1px solid $paogref-bg-light;
+      color: $paogref-light;
+      border: 1px solid $paogref-light;
       border-radius: 0rem;
     }
 
@@ -163,17 +167,17 @@ body {
 
 
 .top-bar {
-  background-color: $paogref-bg-light;
+  background-color: $paogref-light;
   border: 1px solid $paogref-b-color;
   padding: 0.5rem 1rem;
 
   .nav-link {
-    color: $paogref-text-dark;
+    color: $paogref-dark;
     padding-right: 1rem;
     padding-left: 1rem;
 
     &:hover {
-      color: $paogref-text-red;
+      color: $paogref-red;
     }
 
   }
@@ -186,18 +190,18 @@ body {
   }
 
   .login-btn {
-    background-color: $paogref-bg-green;
-    color: $paogref-text-light;
+    background-color: $paogref-green;
+    color: $paogref-light;
     // margin-top: 6px;
 
     &:hover {
-      background-color: $paogref-bg-hover-green;
+      background-color: $paogref-green-light;
     }
   }
 
   .language-btn {
-    background-color: $paogref-bg-light;
-    color: $paogref-text-dark;
+    background-color: $paogref-light;
+    color: $paogref-dark;
     border: thin solid #888;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     white-space: nowrap;
@@ -216,7 +220,7 @@ body {
 .news-container {
   .nav-tabs {
     border-bottom: 0px;
-    background-color: $paogref-bg-green;
+    background-color: $paogref-green;
   }
 
   .nav-tabs .nav-link {
@@ -230,7 +234,7 @@ body {
   .nav-tabs .nav-item.show .nav-link {
     color: #fff;
     background-color: transparent;
-    border-bottom: 4px solid $paogref-bg-red;
+    border-bottom: 4px solid $paogref-red;
 
   }
 
@@ -250,7 +254,7 @@ body {
 
     .banner-content {
 
-      color: $paogref-text-light;
+      color: $paogref-light;
     }
 
 
@@ -328,7 +332,7 @@ body {
     }
 
     .btn-link {
-      color: $paogref-text-green;
+      color: $paogref-green;
 
       &:hover,
       &:focus {
@@ -343,5 +347,39 @@ body {
     }
   }
 }
+.home-gallery {
+
+padding: 2rem 1.5rem;
+  .gallery-item {
+
+    .item-container {
+      margin-right: 8px;
+      margin-bottom: 8px;
+
+      @media (max-width: 425px) {
+        margin-right: 0px;
+      }
+    }
+
+  }
+
+  .img-container {
+    height: 141px;
+    text-align: center;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      height: auto;
+      width: auto;
+      vertical-align: middle;
+      border: 0;
+      text-align: center;
+      padding: 4px;
+    }
+  }
+
+}
+
 
 @import "~bootstrap/dist/css/bootstrap.css";

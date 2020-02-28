@@ -14,36 +14,31 @@ export const navItems = [
     url: "/directory",
     icon: "tachometer"
   },
-  //  {
-  //   name: "Appendix-J",
-  //   url: "/appendixj",
-  //   icon: "tachometer",
-
-  // },
-  // {
-  //   name: "RTI",
-  //   url: "/rti",
-  //   icon: "tachometer",
-
-  // },
-  // {
-  //   name: "DownLoad",
-  //   url: "/downloads",
-  //   icon: "tachometer",
-
-  // },
-  // {
-  //   name: "Important links",
-  //   url: "/importantslinks",
-  //   icon: "tachometer",
-
-  // },
-  // {
-  //   name: "Publc Grievances",
-  //   url: "/publicgrievances",
-  //   icon: "tachometer",
-
-  // },
+  {
+    name: "Appendix-J",
+    url: "/appendixj",
+    icon: "tachometer"
+  },
+  {
+    name: "RTI",
+    url: "/rti",
+    icon: "tachometer"
+  },
+  {
+    name: "DownLoad",
+    url: "/downloads",
+    icon: "tachometer"
+  },
+  {
+    name: "Important links",
+    url: "/importantslinks",
+    icon: "tachometer"
+  },
+  {
+    name: "Publc Grievances",
+    url: "/publicgrievances",
+    icon: "tachometer"
+  },
   {
     name: "Contact",
     url: "/contact",
