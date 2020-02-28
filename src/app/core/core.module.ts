@@ -3,6 +3,8 @@ import { CommonModule } from "@angular/common";
 // import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { Routes, RouterModule } from "@angular/router";
 import { BootstrapModule } from "../shared/bootstrap/bootstrap.module";
+
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SiteFooterComponent } from "./site-footer/site-footer.component";
 import { SiteHeaderComponent } from "./site-header/site-header.component";
 import { SiteHeaderWrapperComponent } from "./site-header-wrapper/site-header-wrapper.component";
@@ -25,7 +27,7 @@ import { SitePageNotFoundComponent } from "./site-page-not-found/site-page-not-f
 
     SitePageNotFoundComponent
   ],
-  imports: [CommonModule, RouterModule, BootstrapModule],
+  imports: [CommonModule, RouterModule, BootstrapModule,FontAwesomeModule],
   exports: [
     SiteFooterComponent,
     SiteHeaderComponent,
