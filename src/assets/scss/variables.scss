@@ -1,32 +1,31 @@
-$paogref-bg-light:#fff;
-$paogref-bg-green:#025b29;
-$paogref-bg-hover-green:#17c563;
-$paogref-bg-dark-gray:#050b11;
-$paogref-bg-red:#db0004;
-$paogref-text-light:#fff;
-$paogref-text-dark:#000;
-$paogref-text-red:#db0004;
-$paogref-text-blue:#0b2b68;
-$paogref-text-green:#025b29;
-$paogref-font-size:14px;
+$paogref-light:#fff;
+$paogref-dark:#000;
+$paogref-green:#025b29;
+$paogref-green-light:#17c563;
+$paogref-blue:#0b2b68;
+$paogref-dark-gray:#050b11;
+$paogref-red:#db0004;
+$paogref-red-light:#c61014;
 $paogref-b-color:#00000020;
+
+
+$paogref-font-size:14px;
+
 // For navbar 
-$navbar-bg-color:$paogref-text-red;
-$navbar-bg-hover-color:#c61014;
-$navbar-color:$paogref-text-light;
+$navbar-bg-color:$paogref-red;
+$navbar-bg-hover-color:$paogref-red-light;
+$navbar-color:$paogref-light;
 $navbar-font-size:14px;
 $navbar-font-weight:400;
 // For Banner
 $banner-height:375px;
-$banner-bg-color:$paogref-bg-light;
-$banner-color:$paogref-text-light;
+$banner-bg-color:$paogref-light;
+$banner-color:$paogref-light;
 $banner-font-size:1rem;
 $banner-font-weight:500;
 
-// For maquee
-
 // For footer
-$footer-bg-color:$paogref-bg-dark-gray;
+$footer-bg-color:$paogref-dark-gray;
 
 // For Whats new
 $home-wrapper-top-bg-color:#f1eedd;

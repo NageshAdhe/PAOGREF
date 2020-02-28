@@ -50,7 +50,7 @@ export const quickLinks = [
   },
    {
     name: "Contact Us",
-    url: "/contactus"
+    url: "/contact"
   },
    {
     name: "Login",
@@ -58,7 +58,7 @@ export const quickLinks = [
   },
    {
     name: "FAQ",
-    url: "/faq",
+    url: "/faqs",
   },
    {
     name: "Disclaimer",

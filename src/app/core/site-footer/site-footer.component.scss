@@ -3,11 +3,11 @@
 .footer {
   background-color: $footer-bg-color;
   //  min-height: 538px;
-  color: $paogref-text-light;
+  color: $paogref-light;
   padding: 1rem 1rem;
 
   .nav-link {
-    color: $paogref-text-light;
+    color: $paogref-light;
 
     &:hover {
       color: $navbar-bg-hover-color;
@@ -24,12 +24,12 @@
   }
 
   .contact-head {
-    // color: $paogref-text-red;
+    // color: $paogref-red;
   }
 
   .tel,
   .mailto {
-    color: $paogref-text-light;
+    color: $paogref-light;
   }
 
   hr {
